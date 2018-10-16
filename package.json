@@ -1,0 +1,30 @@
+{
+    "name": "people-finder",
+    "version": "1.0.0",
+    "description": "People finder",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Robert",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "mysql": "^2.16.0",
+        "node-sass": "^4.9.3"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.3",
+        "grunt-bower-concat": "^1.0.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-uglify": "^3.4.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-processhtml": "^0.4.1",
+        "grunt-sass": "^2.1.0"
+    }
+}
